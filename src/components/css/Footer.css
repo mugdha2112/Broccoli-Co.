@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Jost:wght@300&family=Ms+Madi&family=Source+Code+Pro&display=swap');
+footer {
+  text-align: center;
+  background-color: #bee8c2;
+  color: black;
+  font-family: 'Jost', sans-serif;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 50px;
+  display: inline-block;   
+}
+
+
+footer p{
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 12px;
+}

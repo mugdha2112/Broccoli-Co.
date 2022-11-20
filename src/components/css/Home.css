@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Jost:wght@300&family=Ms+Madi&family=Source+Code+Pro&display=swap');
+
+body,h1,h5 {
+    font-family: "Raleway", sans-serif
+}
+
+body, html {
+    height: 100%
+}
+
+
+.bgimg {
+min-height: 100%;
+background-position: center;
+background-size: cover;
+}
+
+
+.tiledBackground
+{
+    background: url(../images/background.jpg) no-repeat center center;
+/* background-image : url("https://unsplash.com/photos/nN1HSDtKdlw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink") !important; */
+}
+
+.container { 
+    height: 100vh;
+    position: relative;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+  .heading
+  {
+        text-align: center;
+        font-family: 'Jost', sans-serif !important;
+        font-weight: bold;
+  }
+
+  .sub-heading
+  {
+        text-align: center;
+        font-family: 'Jost', sans-serif !important; 
+  }
+
+  .css-1t1j96h-MuiPaper-root-MuiDialog-paper  {
+      padding: 30px !important;
+  }
+
+  .txt
+  {
+    font-family: 'Jost', sans-serif !important;
+  }
+
+  .txt-btn
+  {
+    font-family: 'Jost', sans-serif !important;
+    text-transform: none;
+  }
+
+  .btn-request
+  {
+      background-color: #bee8c2 !important;
+      color: black !important;
+      text-transform: none !important;
+      font-family: 'Jost', sans-serif !important;
+      margin-top: 50px !important;
+      width: 200px;
+      height: 60px;
+    }
+
+    .css-hlj6pa-MuiDialogActions-root
+    {
+            justify-content: center !important;
+         
+    }
+
+    .btn-send
+    {
+        width: 150px !important;
+        background-color: #bee8c2 !important;
+        color: black !important;
+        font-family: 'Jost', sans-serif !important;
+        margin-top: 20px !important;
+    }
+
+    @media all and (max-width : 480px)
+{
+    .css-1sra7t5-MuiTypography-root
+    {
+          text-align: center;
+          font-family: 'Jost', sans-serif !important;
+          font-weight: bold;
+          font-size: 30px !important;
+    }
+  
+    .css-ag7rrr-MuiTypography-root
+    {
+          text-align: center;
+          font-family: 'Jost', sans-serif !important; 
+          font-size: 14px !important;
+    }
+    .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root
+    {
+      height: 50px !important;
+    }
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input
+{
+  font-family: 'Jost', sans-serif !important; 
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root
+{
+  font-family: 'Jost', sans-serif !important; 
+
+}
+
+.css-bdhsul-MuiTypography-root-MuiDialogTitle-root
+{
+  text-align: center !important;
+  font-family: 'Jost', sans-serif !important; 
+
+}
+
+.css-qfso29-MuiTypography-root-MuiDialogContentText-root
+{
+  text-align: center !important;
+  font-family: 'Jost', sans-serif !important; 
+  font-size: 14px !important;
+}
+
+.toast-position {
+  margin-top: 3rem;
+}
